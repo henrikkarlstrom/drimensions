@@ -1,0 +1,18 @@
+Package: drimensions
+Title: R wrapper for the Dimensions API
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Henrik",
+           family = "Karlstrøm",
+           role = c("aut", "cre"),
+           email = "henrik.karlstrom@ntnu.no",
+           comment = c(ORCID = "0000-0002-9942-4326"))
+Description: Handles authentication and pagination for API queries to the Dimensions database in a polite way.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    httr,
+    jsonlite,
+    dplyr
+RoxygenNote: 7.1.0

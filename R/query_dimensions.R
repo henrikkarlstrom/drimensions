@@ -81,7 +81,7 @@ query_dimensions <- function(
   content_frame <- data.frame()
   content_frame <- dplyr::bind_rows(
     content_frame, 
-    parse_response[[2]]
+    parse_response[[3]]
     )
   
   return(content_frame)

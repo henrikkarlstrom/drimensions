@@ -4,14 +4,12 @@
 \alias{query_dimensions}
 \title{Query the Dimensions database}
 \usage{
-query_dimensions(query, username = NULL, password = NULL)
+query_dimensions(query, token = NULL)
 }
 \arguments{
 \item{query}{string}
 
-\item{username}{string}
-
-\item{password}{string}
+\item{token}{string}
 }
 \value{
 data frame
